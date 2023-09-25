@@ -75,5 +75,5 @@ function resetGame() {
   guess.focus();
 
   randInt = randIntBetween(1, 10);
-  // console.log(randInt);
+  console.log(randInt);
 }
