@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Press+Start+2P&family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="grid">
+    <h1 class="uppercase">Guess the number</h1>
+    <h3>Chances left: <span>3</span></h3>
+    <div class="grid">
+      <h2>Guess a number betweeen 1 to 10</h2>
+      <input class="number_input" type="number" min="1" max="10" />
+      <button type="submit" class="guess_submit" value="Submit guess">
+        Submit
+      </button>
+    </div>
+    <div class="result_paras">
+      <p class="guess_comment"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </body>
+</html>
