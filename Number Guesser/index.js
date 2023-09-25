@@ -31,6 +31,10 @@ function checkGuess() {
     guessComment.textContent = "Game Over!! Want to play again?";
     lowOrHi.textContent = "";
     gameOver();
+  } else if (tries === 3 && userGuess === randInt) {
+    guessComment.textContent = "You Guessed Wisely!!! Want to play again?";
+    lowOrHi.textContent = "";
+    gameOver();
   } else {
     guessComment.textContent = "You Guessed Poorly!";
     if (userGuess < randInt) {
