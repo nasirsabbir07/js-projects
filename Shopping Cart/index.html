@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Cart App</title>
+  </head>
+  <body>
+    <div><h1>Choose Items</h1></div>
+    <section class="grid product-list">
+      <div class="shop-item">
+        <span class="item-title">Coffee</span>
+        <img src="images/coffee.jpg" alt="coffee" />
+        <p>Price <span class="item-price">$3.00</span></p>
+        <button type="button" class="add">Add to cart</button>
+      </div>
+      <div class="shop-item">
+        <span class="item-title">Cake</span>
+        <img src="images/cake.jpg" alt="cake" />
+        <p>Price <span class="item-price">$4.00</span></p>
+        <button type="button" class="add">Add to cart</button>
+      </div>
+      <div class="shop-item">
+        <span class="item-title">Hotchocolate</span>
+        <img src="images/hotchocolate.jpg" alt="hotchocolate" />
+        <p>Price <span class="item-price">$5.00</span></p>
+        <button type="button" class="add">Add to cart</button>
+      </div>
+      <div class="shop-item">
+        <span class="item-title">Breakfast</span>
+        <img src="images/breakfast.jpg" alt="breakfast" />
+        <p>Price <span class="item-price">$5.00</span></p>
+        <button type="button" class="add">Add to cart</button>
+      </div>
+    </section>
+    <section class="cart">
+      <h2>Cart</h2>
+      <div class="grid cart-elements">
+        <div>
+          <h3><u>Item name</u></h3>
+        </div>
+        <div>
+          <h3><u>Price</u></h3>
+        </div>
+        <div>
+          <h3><u>Discard</u></h3>
+        </div>
+      </div>
+      <div class="cart-item-row"></div>
+    </section>
+  </body>
+</html>
